@@ -1,13 +1,13 @@
 {
   "stats": {
-    "suites": 11,
-    "tests": 27,
-    "passes": 27,
+    "suites": 13,
+    "tests": 32,
+    "passes": 32,
     "pending": 0,
     "failures": 0,
-    "start": "2024-12-14T01:07:43.556Z",
-    "end": "2024-12-14T01:07:43.813Z",
-    "duration": 257
+    "start": "2024-12-14T06:10:05.644Z",
+    "end": "2024-12-14T06:10:05.898Z",
+    "duration": 254
   },
   "tests": [
     {
@@ -62,7 +62,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -132,7 +132,7 @@
     {
       "title": "correctly returns the size of the collection when an array is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -160,13 +160,48 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js myLast returns the last element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers and arrays of strings",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers and arrays of strings",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original arrays",
+      "fullTitle": "index.js mySortBy does not modify the original arrays",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers with non-standard sort",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers with non-standard sort",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly flattens a ludicrously nested array",
+      "fullTitle": "index.js myFlatten correctly flattens a ludicrously nested array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly flattens a single level when a second argument of \"true\" is passed",
+      "fullTitle": "index.js myFlatten correctly flattens a single level when a second argument of \"true\" is passed",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -255,7 +290,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -325,7 +360,7 @@
     {
       "title": "correctly returns the size of the collection when an array is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -353,13 +388,48 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js myLast returns the last element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers and arrays of strings",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers and arrays of strings",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original arrays",
+      "fullTitle": "index.js mySortBy does not modify the original arrays",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers with non-standard sort",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers with non-standard sort",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly flattens a ludicrously nested array",
+      "fullTitle": "index.js myFlatten correctly flattens a ludicrously nested array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly flattens a single level when a second argument of \"true\" is passed",
+      "fullTitle": "index.js myFlatten correctly flattens a single level when a second argument of \"true\" is passed",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

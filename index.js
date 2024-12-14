@@ -105,3 +105,40 @@ function myValues(object){
 
     return valuesArray
 }
+
+function mySortBy(array, callback){
+    const newArray = [...array]
+
+    newArray.sort((a, b) => {
+        const aCompareValue = callback(a)
+        const bCompareValue = callback(b)
+
+        if(aCompareValue < bCompareValue){
+            return -1
+        }
+        else if(aCompareValue > bCompareValue){
+            return 1
+        }
+        else {
+            return 0
+        }
+    })
+
+    return newArray
+}
+
+function myFlatten(array, booleanValue, arrayOfFlattenedElements=[]){
+    for(const element of array){
+        if((typeof element) !== 'object'){
+            arrayOfFlattenedElements.push(element)
+        }
+        else if(booleanValue === true){
+            arrayOfFlattenedElements.push(...element)
+        }
+        else{
+            arrayOfFlattenedElements.push(...myFlatten(element))
+        }
+    }
+
+    return arrayOfFlattenedElements
+}
